@@ -81,7 +81,7 @@ namespace boutiquepoolteste.Controllers
         }
 
         // DELETE: api/Delete/5
-        ][Route("Delete")]
+        [Route("Delete")]
         [HttpDelete("{id}")]
         public object Delete(Guid id)
         {

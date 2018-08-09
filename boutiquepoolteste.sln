@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27906.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "boutiquepoolteste", "boutiquepoolteste.csproj", "{5EF38CF3-4DBA-44C7-905B-D618FC3395EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFc.BoutiquePool.EF", "..\WebFc.BoutiquePool.EF\WebFc.BoutiquePool.EF.csproj", "{31520198-C190-4BBE-AA6B-B4C8E26F27A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EF38CF3-4DBA-44C7-905B-D618FC3395EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF38CF3-4DBA-44C7-905B-D618FC3395EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF38CF3-4DBA-44C7-905B-D618FC3395EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF38CF3-4DBA-44C7-905B-D618FC3395EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31520198-C190-4BBE-AA6B-B4C8E26F27A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31520198-C190-4BBE-AA6B-B4C8E26F27A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31520198-C190-4BBE-AA6B-B4C8E26F27A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31520198-C190-4BBE-AA6B-B4C8E26F27A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48C8545D-2283-47DB-8E0C-3891EAFF649A}
+	EndGlobalSection
+EndGlobal

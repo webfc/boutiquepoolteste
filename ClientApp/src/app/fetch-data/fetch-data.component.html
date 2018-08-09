@@ -1,0 +1,30 @@
+<h1> Listar</h1>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">Home</li>
+    <li class="breadcrumb-item active" aria-current="page">Listar</li>
+  </ol>
+</nav>
+<p *ngIf="!cadastros"><em>Loading...</em></p>
+
+<table class='table' *ngIf="cadastros">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>E-mail</th>
+      <th>Profissão </th>
+      <th>Idade</th>
+      <th>Desempregado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cadastro of cadastros">
+      <td>{{ cadastro.nome }}</td>
+      <td>{{ cadastro.email}}</td>
+      <td>{{ cadastro.profissao}}</td>
+      <td>{{ cadastro.idade}}</td>
+      <td><input type="checkbox" checked="{{ cadastro.Desempregado }}" /></td>
+    </tr>
+  </tbody>
+</table>

@@ -47,7 +47,7 @@ export class CadastroComponent {
       //.subscribe(
       //result => this.trataRetorno(result),
       //err => this.trataErro(err)     
-  )};
+  };
 
   public trataRetorno(data) {
 
